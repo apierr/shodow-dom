@@ -8,8 +8,18 @@
         <link rel="stylesheet" href="main.css" />
     </head>
     <body>
-        <div id="shadowHost">Hello</div>
+        <div id="shadowHost"></div>
         <div class="x">Other Element</div>
+        <template id="tmpl">
+            <style>
+                .x {
+                    color: green;
+                }
+            </style>
+            <div>
+                Hello <span class="x">I am a shodow Element in a template</span>
+            </div>
+        </template>
         <script src="main.js"></script>
     </body>
 </html>
