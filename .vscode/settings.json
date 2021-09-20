@@ -4,5 +4,6 @@
     "titleBar.activeBackground": "#494008",
     "titleBar.activeForeground": "#FDFAE7"
   },
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "prettier.printWidth": 120
 }

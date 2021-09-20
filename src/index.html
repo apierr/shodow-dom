@@ -6,18 +6,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <link rel="stylesheet" href="main.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+            integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
     </head>
     <body>
         <div id="shadowHost"></div>
-        <div class="x">Other Element</div>
+        <div class="x">Other Element <i class="fa fa-eye"></i></div>
         <template id="tmpl">
+            <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+                integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+                crossorigin="anonymous"
+                referrerpolicy="no-referrer"
+            />
             <style>
                 .x {
                     color: green;
                 }
             </style>
             <div>
-                Hello <span class="x">I am a shodow Element in a template</span>
+                Hello
+                <span class="x">I am a shodow Element inside a template <i class="fa fa-eye"></i></span>
             </div>
         </template>
         <script src="main.js"></script>
