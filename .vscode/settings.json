@@ -3,5 +3,7 @@
     "activityBar.background": "#342E05",
     "titleBar.activeBackground": "#494008",
     "titleBar.activeForeground": "#FDFAE7"
-  }
+  },
+  "liveServer.settings.port": 5501,
+  "prettier.printWidth": 120
 }
